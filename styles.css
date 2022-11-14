@@ -1,12 +1,14 @@
+/* * {
+	/*border: 1px dashed red;
+	min-height: 10px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
 body {
 	background: black;
-	font-family: "Indie Flower", cursive;
 }
-/*
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}*/
 
 p {
 	font-size: 1rem;
@@ -14,22 +16,23 @@ p {
 
 button {
 	background-color: lightgray;
-	padding: 10px;
+	font-size: 1rem;
+	font-family: "Indie Flower", cursive;
 }
 
 input {
 	display: block;
 	font-size: medium;
 	margin: 0.4rem;
-	padding-top: 10px;
 	border: none;
+	font-family: "Indie Flower", cursive;
 }
 input:nth-child(-n + 2) {
-	border: none;
-	border-bottom: 1px solid grey !important;
+	border-bottom: 1px solid grey;
 }
 
-.postcard {
+.post-card {
+	font-family: "Indie Flower", cursive;
 	background: white;
 	width: 400px;
 	height: 300px;
@@ -46,7 +49,7 @@ input:nth-child(-n + 2) {
 }
 
 .postcard-header h1 {
-	width: 400px;
+	width: 100%;
 	margin: 0;
 }
 
